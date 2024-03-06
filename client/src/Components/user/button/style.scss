@@ -1,0 +1,146 @@
+.btn {
+    box-shadow: 0 0 8px #000;
+    position: relative;
+    border-radius: 3px;
+    text-align: left;
+    left: 6em;
+    transform: translateX(0);
+    filter: brightness(1);
+    transition: .5s transform, .5s filter;
+    cursor: pointer;
+    margin-bottom: 1em;
+    width: 80%;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    float: right;
+
+    & .btn-abbr {
+        font-size: 5.25rem; /* Equivalent to text-7xl in Tailwind CSS */
+        font-weight: 700; /* Equivalent to font-bold in Tailwind CSS */
+        font-family: 'TetrisEffect'; /* Equivalent to font-['TetrisEffect'] in Tailwind CSS */
+        text-transform: uppercase;
+        margin-left: 1.25rem; /* Equivalent to ml-5 in Tailwind CSS */
+        width: 10rem; /* Equivalent to w-40 in Tailwind CSS */
+    }
+
+    & .btn-title {
+        font-weight: 700; /* Equivalent to font-bold in Tailwind CSS */
+        font-size: 3.2rem; /* Equivalent to text-5xl in Tailwind CSS */
+        line-height: 3.4rem; /* Equivalent to text-5xl in Tailwind CSS */
+        text-transform: uppercase;
+        font-family: 'Hun'; /* Equivalent to font-['TetrisEffect'] in Tailwind CSS */
+    }
+
+    & .btn-subtitle {
+        margin-top: 0.25rem; /* Equivalent to mt-1 in Tailwind CSS */
+        font-size: 1.2rem; /* Equivalent to text-xl in Tailwind CSS */
+        text-transform: uppercase;
+        line-height: 1.4rem; /* Equivalent to leading-tight in Tailwind CSS */
+        font-family: 'Hun'; /* Equivalent to font-['TetrisEffect'] in Tailwind CSS */
+    }
+}
+
+.btn:hover {
+    transform: translateX(-4em);
+    filter: brightness(1.2);
+    transition: .2s transform, .2s filter;
+}
+
+.btn-multiplayer {
+    color: #f1bcdb;
+    background-color: #34222d;
+    border-top: 3px solid #472d3d;
+    border-left: 3px solid #3c2734;
+    border-bottom: 3px solid #271b22;
+}
+
+.btn-solo {
+    color: #bab8df;
+    background-color: #1e1d2d;
+    border-top: 3px solid #2e2d42;
+    border-left: 3px solid #272639;
+    border-bottom: 3px solid #12111b;
+}
+
+.btn-leaderboard {
+    color: #8f9;
+    background-color: #1c3e2a;
+    border-top: 3px solid #1d6429;
+    border-left: 3px solid #1e4822;
+    border-bottom: 3px solid #0e130f;
+}
+
+.btn-config {
+    color: #88afff;
+    background-color: #1c263e;
+    border-top: 3px solid #1d3164;
+    border-left: 3px solid #1e2a48;
+    border-bottom: 3px solid #0e0f13;
+}
+
+.btn-about {
+    color: silver;
+    background-color: #222;
+    border-top: 3px solid #2a2a2a;
+    border-left: 3px solid #262626;
+    border-bottom: 3px solid #131313;
+}
+
+.btn-league {
+    color: #b26565;
+    background-color: #4f1818;
+    border-top: 3px solid #902d2d;
+    border-left: 3px solid #722222;
+    border-bottom: 3px solid #2f0d0d;
+}
+
+.btn-competition {
+    color: #c29ecb;
+    background-color: #39303b;
+    border-top: 3px solid #524156;
+    border-left: 3px solid #46394a;
+    border-bottom: 3px solid #2b232d;
+}
+
+.btn-train {
+    color: #929cb6;
+    background-color: #343946;
+    border-top: 3px solid #49536b;
+    border-left: 3px solid #40485b;
+    border-bottom: 3px solid #2a2e38;
+}
+
+.btn-40line {
+    color: #ffba88;
+    background-color: #2a211b;
+    border-top: 3px solid #643b1d;
+    border-left: 3px solid #48301e;
+    border-bottom: 3px solid #13100e;
+}
+
+.btn-blitz {
+    color: #ffb9b9;
+    background-color: #3e1c1c;
+    border-top: 3px solid #6b2b2b;
+    border-left: 3px solid #582929;
+    border-bottom: 3px solid #2e1616;
+}
+
+.btn-peace {
+    color: #fdb9ff;
+    background-color: #331933;
+    border-top: 3px solid #6b2b69;
+    border-left: 3px solid #582957;
+    border-bottom: 3px solid #2e162e;
+}
+
+.btn-custom {
+    color: #8c88c0;
+    background-color: #1e1d2d;
+    border-top: 3px solid #2e2d42;
+    border-left: 3px solid #272639;
+    border-bottom: 3px solid #12111b;
+}
